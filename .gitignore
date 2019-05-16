@@ -1,3 +1,7 @@
+plugins/*
+user_data/
+data/*
+
 # Logs
 logs
 *.log

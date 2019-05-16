@@ -1,0 +1,49 @@
+{
+  "name": "meido",
+  "version": "1.0.0",
+  "description": "a helpful web assitant",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx babel-node index.js"
+  },
+  "nodemonConfig": {
+    "include": [
+      "data/*",
+      "user_data/*"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hahaluckyme/meido.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hahaluckyme/meido/issues"
+  },
+  "homepage": "https://github.com/hahaluckyme/meido#readme",
+  "dependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/node": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-proposal-optional-chaining": "^7.2.0",
+    "@babel/plugin-proposal-pipeline-operator": "^7.3.2",
+    "argparse": "^1.0.10",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "child_process": "^1.0.2",
+    "chrono-node": "^1.3.11",
+    "concurrently": "^4.1.0",
+    "fs": "0.0.1-security",
+    "human-to-cron": "^0.3.1",
+    "node-schedule": "^1.3.2",
+    "nodemon": "^1.19.0",
+    "promisify-child-process": "^3.1.0",
+    "puppeteer": "^1.15.0",
+    "puppeteer-extra": "^2.1.3",
+    "puppeteer-extra-plugin-stealth": "^2.2.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "util": "^0.12.0"
+  }
+}
